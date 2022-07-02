@@ -1,29 +1,56 @@
-<html><head>
-<title>Signup to Saintgits</title>
-<link rel="icon" href="https://saintgits-mca.github.io/images/Logo.jpg">
-   <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Application Form for Admission</title>
+<style>
+body{background-color: white;
+color: black ;
+font-size:26px;
+}
+
+form
+{
+ margin-left:100px;
+}
+</style>
 </head>
+<meta style="color:blue" content="width=3000;initial-scale=.8"/>
 <body>
-<img src="https://saintgits-mca.github.io/images/Header-Stickers5.jpg" width="424" height="125">
-<img src="https://saintgits-mca.github.io/images/Header-Stickers9.jpg" width="486" height="125" align="right">
-<div class="topnav" style="color:red;background-color:whitesmoke;"  width="500"><br><u><h1 align="center">Register/Signup</h1></u><br></div>
+<img id="SAINTGITS" src="https://saintgits-mca.github.io/images/Header-Stickers5.jpg" width="424px" height="125px">
+<img id="SAINTGITS" src="https://saintgits-mca.github.io/images/Header-Stickers9.jpg" width="484px" height="125px" align="right">
+ <h1 style ="color:red;font-family:Sans-serif;" align="center"><b><i>&nbsp;&nbsp;<u>Register/Sign up</i></u> </b> </h1>
+ &nbsp;<form  style="font-family:Sans-serif;font-size:26px" name="regform" action= "https://prudhwi2002.github.io/success" method="GET">
+ <label for="txtname">
+   
+      &ensp;     First Name:
+          &emsp;&ensp;&emsp;&ensp;  <input type="textname" name="firstname" placeholder="First Name" required="First Name">
+            <br><br>&ensp; Last Name:
+        &emsp;&ensp;&emsp;&ensp;    <input type="text" name="lastname"placeholder="Last Name" required="lastname">
+            <br><br>
+  &nbsp;<label for="Age">
+ &nbsp;Your  Age &nbsp;&nbsp;&nbsp;:
+              </Label>
+   &emsp;&ensp;&emsp;&ensp; <input type="number" name="Age" id="Age" Placeholder="Age" style="font-family:Sans-serif;" required="Age">
 <br><br>
-<form name="regform" style="font-family:serif;" action="https://saintgits-mca.github.io/success/" required="">
-<br><table width="100%" align="center">
-<tr width="500"><td>&emsp;&emsp;&emsp;<label for="Name">Name</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="textname" width="20%" placeholder="Name" style="font-family:serif;" required="name"></td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp; <label for="Age">   Age      </label>&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="number" style="font-family:serif;"  width="20%" placeholder="Age" required="age"></td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp; <label for="D-O-B">Date Of Birth</label>&emsp;&emsp;&emsp;&emsp;&emsp;<input type="date" width="20%" style="font-family:serif;"  placeholder="DD-MM-YYYY" required="DOB"></td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp; <label for="Phone number">Phone Number</label>&ensp;&emsp;&emsp;&emsp;&emsp;<input type="number" width="20%" style="font-family:serif;" placeholder="Phone Number" required="Phone number"></td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp; <label for="Email">E-mail</label>&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="email" style="font-family:serif;" width="20%" placeholder="Email" required="email"></td></tr>
-<tr width="500"><td> <br>&emsp;&emsp;&emsp;<label for="Qualifications">Qualifications</label>&ensp;&nbsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" id="001" width="20%" value="12th or Equivalent" name="Qualifications">12th or Equivalent&emsp;&emsp;&emsp;&emsp;&emsp;<input id="002" type="radio" width="20%" value="Bsc Mathematics" name="Qualifications">Bsc Mathematics&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" id="003" width="20%" value="BBA" name="Qualifications">BBA</td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp;<label for="Course">Courses</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="Checkbox" id="001" width="20%" value="MCA" name="Courses">MCA&emsp;&emsp;&emsp;<input type="Checkbox" id="002" width="20%" value="Integrated MCA" name="Courses">Integrated MCA</td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp;<label for="Address">Address</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<textarea cols="25" align="center" style="font-family:serif;" placeholder="address" rows="6" required=""></textarea></td></tr>
-<tr width="500"><td> <br>&emsp;&emsp;&emsp;<label for="District">District</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="textname" width="20%" style="font-family:serif;" placeholder="District" required="district"></td></tr>
-<tr width="500"><td> <br>&emsp;&emsp;&emsp;<label for="State">State</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select id="combo" placeholder="State" required="State"><option placeholder="State">Select</option><option required="">Kerala</option><option>Tamilnadu</option><option>Karnataka</option><option>Andhra Pradesh</option><option>Goa</option><option>Maharashtra</option></select></td></tr>
-<tr width="500"><td><br>&emsp;&emsp;&emsp;<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value=" Signup  "   style="color:snow;background-color:green;border-radius:8cm;border-color:green;width:110px;height:50px;font-weight:bold;" > 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="reset" style="border-radius:8cm;color:snow;background-color:red;border-color:red;width:110px;height:50px;font-weight:bold;" align="right" value=" Cancel  " ></td></tr>
-</table>
-  </form>
-  </body>
+ <label for="Number"> &nbsp;&nbsp;Phone No&nbsp;&nbsp;&nbsp; :   </label>
+ &emsp;&ensp;&emsp;&ensp; <input type="number" id="Phone Number" Placeholder="Phone Number"style="font-family:Sans-serif;" required="Phone Number">
+  <br><br>
+&ensp;Select Gender:-
+ &nbsp;&nbsp;&ensp;<input type="radio" name="gender" value="male" required="Select gender"> Male
+ &nbsp; &ensp;<input type="radio" name="gender" value="female"> Female
+ &nbsp; &ensp;<input type="radio" name="gender" value="other"> Other
+ <br><br>
+ <i> &emsp;Address:- </i><br><br>
+ &emsp;&ensp;&emsp;&ensp;&emsp; &emsp; &emsp; &ensp;<textarea rows = "5" cols = "25" style="font-family:Sans-serif" required="Address"></textarea>
+<br></textarea><br>
+&nbsp;<form label for ="EMAIL">&nbsp;Your Email     :&emsp;&ensp;&emsp;&ensp; <input type="email" name="email" id="email" Placeholder="Email" style="font-family:Sans-serif" required="email">
+<br><br>
+   </label>
+  <br><br><br>&nbsp;&nbsp;&nbsp;<label for="txtpass">&nbsp;Password&nbsp;  &nbsp;  : </label> &emsp;&ensp;&emsp;&ensp;<input type="password"  id="myInput"  placeholder="Password" style="font-family:Sans-serif;" required="Password">
+<br><br>
+<button style="color:snow;background-color:green;border:5px solid green;border-radius:7cm;font-size:22px;width:300px;"><b> Submit </b></button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<input type="reset" value=" Reset " style="color:snow;background-color:red;border:7px solid red;border-radius:7cm;font-size:22px;font-weight:bold;width:300px">
+ </form>
+ </body>
 </html>
+  
